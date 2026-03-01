@@ -1,5 +1,5 @@
 import './globals.css';
-
+import SectionBox from './__components/sectionBox';
 
 export  function Home() {
   return (
@@ -116,7 +116,9 @@ export  function Home() {
 export default function Home2(){
   return(
     <div className="ampera-page">
-
+      <SectionBox>
+        <h1>Welcome to Ampera</h1>
+      </SectionBox>
     </div>
   )
 }
