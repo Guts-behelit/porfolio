@@ -1,0 +1,65 @@
+/* [project]/app/__components/_sections/pasarelaProyects.module.css [app-client] (css) */
+.pasarelaProyects-module__TxfrHa__card {
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 95%;
+  height: 90%;
+  position: relative;
+  overflow: hidden;
+}
+
+.pasarelaProyects-module__TxfrHa__card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.pasarelaProyects-module__TxfrHa__overlay {
+  opacity: 0;
+  background: #0009;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .4s;
+  display: flex;
+  position: absolute;
+  inset: 0;
+}
+
+.pasarelaProyects-module__TxfrHa__overlay h2 {
+  color: #fff;
+  font-size: 2rem;
+  transition: transform .4s;
+  transform: translateY(20px);
+}
+
+.pasarelaProyects-module__TxfrHa__card:hover .pasarelaProyects-module__TxfrHa__overlay {
+  opacity: 1;
+}
+
+.pasarelaProyects-module__TxfrHa__card:hover .pasarelaProyects-module__TxfrHa__overlay h2 {
+  transform: translateY(0);
+}
+
+.pasarelaProyects-module__TxfrHa__pasarela-proyects-container {
+  background-color: #0000;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+  gap: 0;
+  width: 100%;
+  height: 400px;
+  padding: 0 10px;
+  display: grid;
+}
+
+.pasarelaProyects-module__TxfrHa__subtitle {
+  color: #ffebcd;
+  background-color: #0000;
+  padding: .5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=app___components__sections_pasarelaProyects_module_css_bad6b30c._.single.css.map*/

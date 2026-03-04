@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/__components/pasarelaProyects.module.css"],"sourcesContent":[".pasarela-proyects-container{\n  background-color: transparent;\n}"],"names":[],"mappings":"AAAA"}}]
+}

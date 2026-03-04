@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/__components/_navbar/logo.module.css"],"sourcesContent":[".logo-container{\n  width: auto;\n  height: 40px;\n  padding:0px 20px 0px 20px;\n  text-align: center;\n  background-color: transparent;\n  display: inline-flex;\n  align-items: center;\n  font-size: 1rem;\n  font-weight: 600;\n  color: blanchedalmond;\n}"],"names":[],"mappings":"AAAA"}}]
+}

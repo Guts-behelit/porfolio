@@ -1,0 +1,53 @@
+/* [project]/app/__components/_sections/contactMe.module.css [app-client] (css) */
+.contactMe-module__LWP-JW__contact-container {
+  background: #111116;
+  border-radius: 0;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 80px 60px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.contactMe-module__LWP-JW__contact-container:before {
+  content: "";
+  pointer-events: none;
+  background: radial-gradient(circle at 100%, #ff780059, #0000 70%);
+  position: absolute;
+  inset: 0;
+}
+
+.contactMe-module__LWP-JW__contact-text .contactMe-module__LWP-JW__contact-title {
+  color: #f5f5f5;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+}
+
+.contactMe-module__LWP-JW__contact-text .contactMe-module__LWP-JW__contact-description {
+  color: #aaa;
+  max-width: 400px;
+  padding: 20px 0;
+}
+
+.contactMe-module__LWP-JW__contact-button {
+  color: #ff7a00;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #ff7a0080;
+  border-radius: 12px;
+  padding: 18px 40px;
+  font-size: 1rem;
+  transition: all .4s;
+}
+
+.contactMe-module__LWP-JW__contact-button:hover {
+  color: #000;
+  background: #ff7a00;
+  box-shadow: 0 0 25px #ff7a0099;
+}
+
+/*# sourceMappingURL=app___components__sections_contactMe_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,50 @@
+/* [project]/app/__components/_navbar/navbarHome.module.css [app-client] (css) */
+.navbarHome-module__wFqynq__navbar-home-container {
+  color: #ffebcd;
+  box-sizing: border-box;
+  z-index: 5;
+  background-color: #0000;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 10vh;
+  padding: 0 1rem;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbarHome-module__wFqynq__hamburguer-btn {
+  cursor: pointer;
+  background-color: #0000;
+  width: 40px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  display: block;
+  position: relative;
+}
+
+.navbarHome-module__wFqynq__desktop-menu {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .navbarHome-module__wFqynq__desktop-menu {
+    background-color: #0000;
+    gap: 20px;
+    padding: 0 1rem;
+    font-weight: 600;
+    display: flex;
+  }
+
+  .navbarHome-module__wFqynq__hamburguer-btn {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=app___components__navbar_navbarHome_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,14 @@
+/* [project]/app/__components/pasarelaProyects.module.css [app-client] (css) */
+.pasarelaProyects-module__ZivkrW__pasarela-proyects-container {
+  background-color: #f0f8ff;
+}
+
+/* [project]/app/__components/proyects.module.css [app-client] (css) */
+.proyects-module__ZsGxXa__proyects-container {
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-alt);
+  border-radius: .5rem;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=app___components_bfeccbc4._.css.map*/

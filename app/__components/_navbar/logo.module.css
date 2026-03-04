@@ -1,0 +1,12 @@
+.logo-container{
+  width: auto;
+  height: 40px;
+  padding:0px 20px 0px 20px;
+  text-align: center;
+  background-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: blanchedalmond;
+}

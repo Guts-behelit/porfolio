@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/__components/_navbar/navbarHome.module.css"],"sourcesContent":[".navbar-home-container {\n  width: 100%;\n  height: 10vh;\n  padding: 0rem 1rem;\n  color: blanchedalmond;\n  background-color:transparent;\n  box-sizing: border-box;\n  position: absolute;\n  z-index: 5;\n  top: 0;\n  left: 0;\n  right: 0;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 20px;\n  \n}\n\n.hamburguer-btn{\n  display: block;\n  width: 40px;\n  height: auto;\n  padding: 0;\n  margin: 0;\n  position: relative;\n  cursor: pointer;\n  background-color: transparent;\n  font-size: 20px;\n}\n.desktop-menu {\n  display: none;\n}\n@media screen and (min-width: 769px) {\n  .desktop-menu {\n    padding: 0rem 1rem;\n    background-color: transparent;\n    font-weight: 600;\n    display: flex;\n    gap: 20px;\n  }\n  .hamburguer-btn {\n    display: none;\n  }\n  \n}"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;AAmBA;;;;;;;;;;;;AAWA;;;;AAGA;EACE;;;;;;;;EAOA"}}]
+}

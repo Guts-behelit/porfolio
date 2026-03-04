@@ -1,0 +1,53 @@
+/* [project]/app/__components/_sections/aboutMe.module.css [app-client] (css) */
+.aboutMe-module__9RFnpG__about-me-container {
+  background: none;
+  border-radius: 0;
+  flex-direction: column;
+  padding: 20px 10px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutMe-module__9RFnpG__about-me-container:before {
+  content: "";
+  pointer-events: none;
+  background: radial-gradient(circle at 100%, #ff780040, #0000 60%);
+  position: absolute;
+  inset: 0;
+}
+
+.aboutMe-module__9RFnpG__about-me-content {
+  z-index: 2;
+  padding: 60px;
+}
+
+.aboutMe-module__9RFnpG__about-me-title {
+  color: #f5f5f5;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.aboutMe-module__9RFnpG__about-me-description {
+  color: #aaa;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.aboutMe-module__9RFnpG__about-me-link {
+  color: #ff7a00;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.aboutMe-module__9RFnpG__about-me-link:hover {
+  opacity: .7;
+}
+
+.aboutMe-module__9RFnpG__about-me-image {
+  background: url("https://i.pinimg.com/1200x/31/4e/b7/314eb73cbe553775ed3d0e3268bb4b98.jpg") center / cover no-repeat;
+  height: 400px;
+}
+
+/*# sourceMappingURL=app___components__sections_aboutMe_module_css_bad6b30c._.single.css.map*/

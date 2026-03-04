@@ -1,0 +1,10 @@
+.section-box-container {
+  width: 100%;
+  height: auto; /* Cambiado para ocupar toda la ventana */
+  margin: 0;
+  padding:0;
+  border: 0px solid white;
+  background-color: transparent;
+  z-index: 1;
+  color: blanchedalmond;
+}

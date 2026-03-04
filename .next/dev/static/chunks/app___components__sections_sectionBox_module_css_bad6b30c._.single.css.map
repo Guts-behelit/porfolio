@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/__components/_sections/sectionBox.module.css"],"sourcesContent":[".section-box-container {\n  width: 100%;\n  height: auto; /* Cambiado para ocupar toda la ventana */\n  margin: 0;\n  padding:0;\n  border: 0px solid white;\n  background-color: transparent;\n  z-index: 1;\n  color: blanchedalmond;\n}"],"names":[],"mappings":"AAAA"}}]
+}

@@ -1,0 +1,119 @@
+/* [project]/app/__components/_sections/pasarelaProyects.module.css [app-client] (css) */
+.pasarelaProyects-module__TxfrHa__pasarela-proyects-container {
+  background-color: #0000;
+}
+
+/* [project]/app/__components/_sections/sectionBox.module.css [app-client] (css) */
+.sectionBox-module__Z-5SVa__section-box-container {
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-alt);
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.sectionBox-module__Z-5SVa__section-box-filter {
+  background-color: var(--color-bg);
+  opacity: .5;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* [project]/app/__components/_sections/proyects.module.css [app-client] (css) */
+.proyects-module__uLW5Dq__proyects-container {
+  background-color: var(--color-bg-alt);
+}
+
+/* [project]/app/__components/_sections/headerHome.module.css [app-client] (css) */
+.headerHome-module__BMgKUa__header-home-container {
+  z-index: 1;
+  background-color: #f313f3;
+  border-radius: 0 0 1.5rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  margin: 0;
+  padding: 0 1rem 1rem;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.headerHome-module__BMgKUa__header-home-image {
+  object-fit: cover;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* [project]/app/__components/_navbar/navbarHomeMobile.module.css [app-client] (css) */
+@media screen and (min-width: 769px) {
+  .navbarHomeMobile-module__Joo1Wa__mobile-menu {
+    display: none;
+  }
+}
+
+/* [project]/app/__components/_navbar/navbarHome.module.css [app-client] (css) */
+.navbarHome-module__wFqynq__navbar-home-container {
+  box-sizing: border-box;
+  z-index: 5;
+  background-color: red;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 10vh;
+  padding: 0 1rem;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbarHome-module__wFqynq__hamburguer-btn {
+  cursor: pointer;
+  background-color: #0000;
+  width: 40px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  display: block;
+  position: relative;
+}
+
+.navbarHome-module__wFqynq__desktop-menu {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .navbarHome-module__wFqynq__desktop-menu {
+    background-color: violet;
+    gap: 20px;
+    padding: 0 1rem;
+    display: flex;
+  }
+
+  .navbarHome-module__wFqynq__hamburguer-btn {
+    display: none;
+  }
+}
+
+/* [project]/app/__components/_sections/aboutMe.module.css [app-client] (css) */
+.aboutMe-module__9RFnpG__about-me-container {
+  background-color: var(--color-bg-alt);
+}
+
+/* [project]/app/__components/_sections/contactMe.module.css [app-client] (css) */
+
+
+/*# sourceMappingURL=app___components_d518cad6._.css.map*/

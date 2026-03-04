@@ -1,0 +1,73 @@
+/* [project]/app/__components/_sections/proyects.module.css [app-client] (css) */
+.proyects-module__uLW5Dq__projects-title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 2.8rem;
+}
+
+.proyects-module__uLW5Dq__projects-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  display: grid;
+}
+
+.proyects-module__uLW5Dq__project-card {
+  background: #111116;
+  border-radius: 25px;
+  transition: all .4s;
+  position: relative;
+  overflow: hidden;
+}
+
+.proyects-module__uLW5Dq__project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px #ff7a0026;
+}
+
+.proyects-module__uLW5Dq__project-image {
+  background-position: center;
+  background-size: cover;
+  height: 220px;
+  position: relative;
+}
+
+.proyects-module__uLW5Dq__project-image:after {
+  content: "";
+  background: linear-gradient(to top, #000000b3, #0000);
+  position: absolute;
+  inset: 0;
+}
+
+.proyects-module__uLW5Dq__project-content {
+  padding: 30px;
+}
+
+.proyects-module__uLW5Dq__project-content h3 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.proyects-module__uLW5Dq__project-content p {
+  color: #aaa;
+  margin-bottom: 25px;
+  font-size: .95rem;
+  line-height: 1.6;
+}
+
+.proyects-module__uLW5Dq__project-button {
+  color: #ff7a00;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #ff7a0080;
+  border-radius: 10px;
+  padding: 12px 25px;
+  transition: all .4s;
+}
+
+.proyects-module__uLW5Dq__project-button:hover {
+  color: #000;
+  background: #ff7a00;
+  box-shadow: 0 0 20px #ff7a0099;
+}
+
+/*# sourceMappingURL=app___components__sections_proyects_module_css_bad6b30c._.single.css.map*/

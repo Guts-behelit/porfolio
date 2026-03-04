@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///home/mr-robot/Escritorio/porfolio/app/__components/proyects.module.css"],"sourcesContent":[".proyects-container {\n  background-color: var(--color-bg-alt);\n}\n"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["file:///home/mr-robot/Escritorio/porfolio/app/__components/_sections/headerHome.module.css"],"sourcesContent":[""],"names":[],"mappings":""}},
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":["file:///home/mr-robot/Escritorio/porfolio/app/__components/_sections/contactMe.module.css"],"sourcesContent":[""],"names":[],"mappings":""}}]
+}
